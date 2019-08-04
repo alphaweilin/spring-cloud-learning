@@ -18,3 +18,8 @@ eureka:
     register-with-eureka: true
 ###是否需要从eureka上检索服务
     fetch-registry: true
+    
+#开启hystrix断路器
+feign:
+  hystrix:
+    enabled: true

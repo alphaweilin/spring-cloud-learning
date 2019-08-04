@@ -16,4 +16,9 @@ public class OrderController {
     public Order queryOrderById(@PathVariable("orderId") String orderId) {
         return this.orderService.queryOrderById(orderId);
     }
+    
+    @GetMapping(value = "order2/{orderId}")
+    public Order queryOrderById2(@PathVariable("orderId") String orderId) {
+        return this.orderService.queryOrderByIdx(orderId);
+    }
 }

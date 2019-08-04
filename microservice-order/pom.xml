@@ -41,6 +41,18 @@
 			<artifactId>okhttp</artifactId>
 			<version>3.9.0</version>
 		</dependency>
+		
+		<dependency>
+		   <groupId>org.springframework.cloud</groupId>
+		   <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+		</dependency>
+		
+		<!--springboot 整合fegnin客户端-->
+		<dependency>
+		   <groupId>org.springframework.cloud</groupId>
+		   <artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
